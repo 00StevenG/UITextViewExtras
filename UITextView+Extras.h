@@ -16,6 +16,8 @@
 
 @interface UITextView (Extras)
 
+
+
 // the selection color used by UIKit for text selection
 +(UIColor*)defaultSelectionColor;
 
@@ -26,28 +28,32 @@
 -(NSArray*)textSelectionRectsForRange:(NSRange)range;
 
 // the following methods return paths (via CGPath Mutation Methods) assembled from UITextSelectionRects
--(CGPathRef)selectionPathWithGranularity:(UITextGranularity)granularity atPoint:(CGPoint)pt;
--(CGPathRef)selectionPathWithGranularity:(UITextGranularity)granularity atIndex:(NSUInteger)idx;
--(CGPathRef)pathForRange:(NSRange)range;
+-(UIBezierPath*)selectionPathWithGranularity:(UITextGranularity)granularity atPoint:(CGPoint)pt;
+-(UIBezierPath*)selectionPathWithGranularity:(UITextGranularity)granularity atIndex:(NSUInteger)idx;
+-(UIBezierPath*)pathForRange:(NSRange)range;
+// quick method -assembles the path calculates bounding rect
+-(CGRect)boundingRectForRange:(NSRange)range;
 
-// caret rects
+
+// caret rects returns CGRectNull if the the passed index is an invalid string index
 -(CGRect)caretRectForStringIndex:(NSUInteger)idx;
 -(CGRect)caretRectClosestToPoint:(CGPoint)pt;
 
 // returns the stirng index
--(NSUInteger)closestCharacterPositionToPoint:(CGPoint)pt;
+-(NSUInteger)closestCharacterIndexToPoint:(CGPoint)pt;
 
 // hit testing using the array of UITextSelectionRects
 -(BOOL)pointInside:(CGPoint)point inRange:(NSRange)range;
 
 // returns a substring with passed granularity or nil if not found at the point
 -(NSString*)substringWithGranularity:(UITextGranularity)granularity atPoint:(CGPoint)pt;
-
 // returns the range in the string at a given point or zero length range if not found
 -(NSRange)rangeWithGranularity:(UITextGranularity)granularity atPoint:(CGPoint)pt;
 
+
 // returns the range bound by a given CGRect
 // cauculated using the caret positions and CGrectGetMax x/y functions
+// NOTE: This works for Left to right writing 
 -(NSRange)rangeOfSubstringRangeBoundByRect:(CGRect)rect;
 
 // returns the substring range for a given granularity
