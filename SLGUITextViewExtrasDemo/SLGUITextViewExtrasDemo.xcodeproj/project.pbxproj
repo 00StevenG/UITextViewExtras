@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9D4678B17B2A1830060FE91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D4678A17B2A1830060FE91 /* UIKit.framework */; };
+		E9D4678D17B2A1830060FE91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D4678C17B2A1830060FE91 /* Foundation.framework */; };
+		E9D4678F17B2A1830060FE91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D4678E17B2A1830060FE91 /* CoreGraphics.framework */; };
+		E9D4679517B2A1830060FE91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D4679317B2A1830060FE91 /* InfoPlist.strings */; };
+		E9D4679717B2A1830060FE91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D4679617B2A1830060FE91 /* main.m */; };
+		E9D4679B17B2A1830060FE91 /* SLGUITextViewExtrasDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D4679A17B2A1830060FE91 /* SLGUITextViewExtrasDemoAppDelegate.m */; };
+		E9D4679D17B2A1830060FE91 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D4679C17B2A1830060FE91 /* Default.png */; };
+		E9D4679F17B2A1830060FE91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D4679E17B2A1830060FE91 /* Default@2x.png */; };
+		E9D467A117B2A1830060FE91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D467A017B2A1830060FE91 /* Default-568h@2x.png */; };
+		E9D467A417B2A1830060FE91 /* SLGUITextViewExtrasDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D467A317B2A1830060FE91 /* SLGUITextViewExtrasDemoController.m */; };
+		E9D467A717B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D467A517B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPhone.xib */; };
+		E9D467AA17B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D467A817B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPad.xib */; };
+		E9D467B217B2A2290060FE91 /* UITextView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D467B117B2A2290060FE91 /* UITextView+Extras.m */; };
+		E9D467B417B2A3520060FE91 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D467B317B2A3520060FE91 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9D4678717B2A1830060FE91 /* SLGUITextViewExtrasDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLGUITextViewExtrasDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D4678A17B2A1830060FE91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9D4678C17B2A1830060FE91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9D4678E17B2A1830060FE91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9D4679217B2A1830060FE91 /* SLGUITextViewExtrasDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLGUITextViewExtrasDemo-Info.plist"; sourceTree = "<group>"; };
+		E9D4679417B2A1830060FE91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9D4679617B2A1830060FE91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D4679817B2A1830060FE91 /* SLGUITextViewExtrasDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLGUITextViewExtrasDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E9D4679917B2A1830060FE91 /* SLGUITextViewExtrasDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLGUITextViewExtrasDemoAppDelegate.h; sourceTree = "<group>"; };
+		E9D4679A17B2A1830060FE91 /* SLGUITextViewExtrasDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLGUITextViewExtrasDemoAppDelegate.m; sourceTree = "<group>"; };
+		E9D4679C17B2A1830060FE91 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E9D4679E17B2A1830060FE91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E9D467A017B2A1830060FE91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E9D467A217B2A1830060FE91 /* SLGUITextViewExtrasDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLGUITextViewExtrasDemoController.h; sourceTree = "<group>"; };
+		E9D467A317B2A1830060FE91 /* SLGUITextViewExtrasDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLGUITextViewExtrasDemoController.m; sourceTree = "<group>"; };
+		E9D467A617B2A1830060FE91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SLGUITextViewExtrasDemo_iPhone.xib; sourceTree = "<group>"; };
+		E9D467A917B2A1830060FE91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SLGUITextViewExtrasDemo_iPad.xib; sourceTree = "<group>"; };
+		E9D467B017B2A2290060FE91 /* UITextView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+Extras.h"; path = "../UITextView+Extras.h"; sourceTree = "<group>"; };
+		E9D467B117B2A2290060FE91 /* UITextView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Extras.m"; path = "../UITextView+Extras.m"; sourceTree = "<group>"; };
+		E9D467B317B2A3520060FE91 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D4678417B2A1830060FE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D467B417B2A3520060FE91 /* QuartzCore.framework in Frameworks */,
+				E9D4678B17B2A1830060FE91 /* UIKit.framework in Frameworks */,
+				E9D4678D17B2A1830060FE91 /* Foundation.framework in Frameworks */,
+				E9D4678F17B2A1830060FE91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9D4677E17B2A1830060FE91 = {
+			isa = PBXGroup;
+			children = (
+				E9D467B017B2A2290060FE91 /* UITextView+Extras.h */,
+				E9D467B117B2A2290060FE91 /* UITextView+Extras.m */,
+				E9D4679017B2A1830060FE91 /* SLGUITextViewExtrasDemo */,
+				E9D4678917B2A1830060FE91 /* Frameworks */,
+				E9D4678817B2A1830060FE91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D4678817B2A1830060FE91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D4678717B2A1830060FE91 /* SLGUITextViewExtrasDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D4678917B2A1830060FE91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9D467B317B2A3520060FE91 /* QuartzCore.framework */,
+				E9D4678A17B2A1830060FE91 /* UIKit.framework */,
+				E9D4678C17B2A1830060FE91 /* Foundation.framework */,
+				E9D4678E17B2A1830060FE91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9D4679017B2A1830060FE91 /* SLGUITextViewExtrasDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E9D4679917B2A1830060FE91 /* SLGUITextViewExtrasDemoAppDelegate.h */,
+				E9D4679A17B2A1830060FE91 /* SLGUITextViewExtrasDemoAppDelegate.m */,
+				E9D467A217B2A1830060FE91 /* SLGUITextViewExtrasDemoController.h */,
+				E9D467A317B2A1830060FE91 /* SLGUITextViewExtrasDemoController.m */,
+				E9D467A517B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPhone.xib */,
+				E9D467A817B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPad.xib */,
+				E9D4679117B2A1830060FE91 /* Supporting Files */,
+			);
+			path = SLGUITextViewExtrasDemo;
+			sourceTree = "<group>";
+		};
+		E9D4679117B2A1830060FE91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D4679217B2A1830060FE91 /* SLGUITextViewExtrasDemo-Info.plist */,
+				E9D4679317B2A1830060FE91 /* InfoPlist.strings */,
+				E9D4679617B2A1830060FE91 /* main.m */,
+				E9D4679817B2A1830060FE91 /* SLGUITextViewExtrasDemo-Prefix.pch */,
+				E9D4679C17B2A1830060FE91 /* Default.png */,
+				E9D4679E17B2A1830060FE91 /* Default@2x.png */,
+				E9D467A017B2A1830060FE91 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D4678617B2A1830060FE91 /* SLGUITextViewExtrasDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D467AD17B2A1830060FE91 /* Build configuration list for PBXNativeTarget "SLGUITextViewExtrasDemo" */;
+			buildPhases = (
+				E9D4678317B2A1830060FE91 /* Sources */,
+				E9D4678417B2A1830060FE91 /* Frameworks */,
+				E9D4678517B2A1830060FE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLGUITextViewExtrasDemo;
+			productName = SLGUITextViewExtrasDemo;
+			productReference = E9D4678717B2A1830060FE91 /* SLGUITextViewExtrasDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D4677F17B2A1830060FE91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SLG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Steven Grace";
+			};
+			buildConfigurationList = E9D4678217B2A1830060FE91 /* Build configuration list for PBXProject "SLGUITextViewExtrasDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9D4677E17B2A1830060FE91;
+			productRefGroup = E9D4678817B2A1830060FE91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D4678617B2A1830060FE91 /* SLGUITextViewExtrasDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D4678517B2A1830060FE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D4679517B2A1830060FE91 /* InfoPlist.strings in Resources */,
+				E9D4679D17B2A1830060FE91 /* Default.png in Resources */,
+				E9D4679F17B2A1830060FE91 /* Default@2x.png in Resources */,
+				E9D467A117B2A1830060FE91 /* Default-568h@2x.png in Resources */,
+				E9D467A717B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPhone.xib in Resources */,
+				E9D467AA17B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D4678317B2A1830060FE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D4679717B2A1830060FE91 /* main.m in Sources */,
+				E9D4679B17B2A1830060FE91 /* SLGUITextViewExtrasDemoAppDelegate.m in Sources */,
+				E9D467A417B2A1830060FE91 /* SLGUITextViewExtrasDemoController.m in Sources */,
+				E9D467B217B2A2290060FE91 /* UITextView+Extras.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9D4679317B2A1830060FE91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D4679417B2A1830060FE91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9D467A517B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D467A617B2A1830060FE91 /* en */,
+			);
+			name = SLGUITextViewExtrasDemo_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E9D467A817B2A1830060FE91 /* SLGUITextViewExtrasDemo_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D467A917B2A1830060FE91 /* en */,
+			);
+			name = SLGUITextViewExtrasDemo_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D467AB17B2A1830060FE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9D467AC17B2A1830060FE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D467AE17B2A1830060FE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLGUITextViewExtrasDemo/SLGUITextViewExtrasDemo-Prefix.pch";
+				INFOPLIST_FILE = "SLGUITextViewExtrasDemo/SLGUITextViewExtrasDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9D467AF17B2A1830060FE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLGUITextViewExtrasDemo/SLGUITextViewExtrasDemo-Prefix.pch";
+				INFOPLIST_FILE = "SLGUITextViewExtrasDemo/SLGUITextViewExtrasDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D4678217B2A1830060FE91 /* Build configuration list for PBXProject "SLGUITextViewExtrasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D467AB17B2A1830060FE91 /* Debug */,
+				E9D467AC17B2A1830060FE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D467AD17B2A1830060FE91 /* Build configuration list for PBXNativeTarget "SLGUITextViewExtrasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D467AE17B2A1830060FE91 /* Debug */,
+				E9D467AF17B2A1830060FE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D4677F17B2A1830060FE91 /* Project object */;
+}
