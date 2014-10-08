@@ -9,7 +9,4 @@ At this point this code assumes left to right writing direction. As noted in the
 
 I've used theses methods in a couple my own apps...
 
-
-http://appstore.com/firetype
-
 http://appstore.com/dragpad
